@@ -1,4 +1,4 @@
-*{
+* {
 	font-family:'Open Sans';
 }
 
@@ -14,7 +14,7 @@
 	}
 }
 
-.sec{
+.sec {
 	view-timeline-name: --image;
 	view-timeline-axis: block;
 
