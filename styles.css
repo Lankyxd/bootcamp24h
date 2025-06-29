@@ -1,3 +1,7 @@
+*{
+	font-family:'Open Sans';
+}
+
 @keyframes show {
 	from {
 		opacity: 0;
