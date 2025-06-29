@@ -1,26 +1,9 @@
-*{
-	font-family:'Open Sans';
+.navbar {
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
-
-@keyframes show {
-	from {
-		opacity: 0;
-		scale: 25%;
-	}
-
-	to {
-		opacity: 1;
-		scale: 100%;
-	}
-}
-
-.sec{
-	view-timeline-name: --image;
-	view-timeline-axis: block;
-
-	animation-timeline: --image;
-	animation-name: show;
-
-	animation-range: entry 25% cover 30%;
-	animation-fill-mode: both;
+        
+.navbar-hidden {
+    transform: translateY(-100%);
+    opacity: 0;
 }
