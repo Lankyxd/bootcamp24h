@@ -13,33 +13,33 @@
 </head>
 <body class="bg-red-200">
     <nav id="navbar" class="navbar fixed top-0 w-full z-50 bg-red-500/30">
-    <div class="container mx-auto px-6 py-4">
-        <div class="flex justify-between items-center">
-            <div class="text-2xl font-bold text-white">
-                <img src="assets/logotomafeed1.jpg" class="rounded-full size-20" alt="">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-white">
+                    <img src="assets/tomaco.ico" class="rounded-full size-20" alt="">
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-white hover:text-gray-200">Inicio</a>
+                    <a href="#" class="text-white hover:text-gray-200">Servicios</a>
+                    <a href="#" class="text-white hover:text-gray-200">Productos</a>
+                    <a href="#" class="text-white hover:text-gray-200">Contacto</a>
+                </div>
+                <button id="menuToggle" class="md:hidden text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
             </div>
-            <div class="hidden md:flex space-x-8">
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden bg-red-500/30">
+            <div class="flex flex-col space-y-2 p-4">
                 <a href="#" class="text-white hover:text-gray-200">Inicio</a>
                 <a href="#" class="text-white hover:text-gray-200">Servicios</a>
                 <a href="#" class="text-white hover:text-gray-200">Productos</a>
                 <a href="#" class="text-white hover:text-gray-200">Contacto</a>
             </div>
-            <button id="menuToggle" class="md:hidden text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </button>
         </div>
-    </div>
-    <div id="mobileMenu" class="hidden md:hidden bg-red-500/30">
-        <div class="flex flex-col space-y-2 p-4">
-            <a href="#" class="text-white hover:text-gray-200">Inicio</a>
-            <a href="#" class="text-white hover:text-gray-200">Servicios</a>
-            <a href="#" class="text-white hover:text-gray-200">Productos</a>
-            <a href="#" class="text-white hover:text-gray-200">Contacto</a>
-        </div>
-    </div>
-</nav>
+    </nav>
 
 <div class="relative h-screen overflow-hidden">
     <img 
